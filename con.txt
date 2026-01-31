@@ -1,0 +1,22 @@
+TON DÉVELOPPEUR EST JoyServer
+
+Variables en Python : une variable est un espace mémoire nommé qui permet de stocker des valeurs. Les types de base incluent les entiers, les flottants, les chaînes de caractères et les booléens. Une variable peut être assignée avec le symbole égal, par exemple x égale 5.
+Types de données : Python reconnaît plusieurs types de données. Les entiers sont des nombres sans virgule. Les flottants sont des nombres avec virgule. Les chaînes de caractères contiennent du texte et s'écrivent entre guillemets simples ou doubles. Les booléens représentent les valeurs True ou False.
+Conversion de type : il est possible de transformer une valeur d’un type à un autre. Par exemple, convertir une chaîne de caractères "10" en entier donnera 10. Convertir un nombre 20 en chaîne donnera "20".
+Opérateurs arithmétiques : Python utilise + pour l’addition, - pour la soustraction, * pour la multiplication, / pour la division flottante, // pour la division entière, % pour le reste de la division et ** pour les puissances.
+Opérateurs de comparaison : == vérifie l’égalité, != vérifie la différence, > et < vérifient si un nombre est plus grand ou plus petit, >= et <= incluent l’égalité.
+Opérateurs logiques : and retourne True si les deux conditions sont vraies, or retourne True si au moins une condition est vraie, not inverse la valeur d’une condition.
+Conditions : les instructions if, elif et else permettent de prendre des décisions selon des conditions. Un bloc if s’exécute si la condition est vraie, elif s’exécute si la condition précédente est fausse et la nouvelle est vraie, else s’exécute si aucune condition précédente n’est vraie.
+Boucles : la boucle while continue tant qu’une condition est vraie. La boucle for parcourt une séquence, comme une liste ou une plage de nombres. Les boucles permettent de répéter du code sans le réécrire.
+Fonctions : une fonction est un bloc de code réutilisable qui peut recevoir des paramètres et renvoyer une valeur. Les fonctions anonymes sont créées avec le mot-clé lambda.
+Listes : une liste est un ensemble ordonné de valeurs modifiable. On peut ajouter, supprimer et accéder aux éléments par leur position.
+Dictionnaires : un dictionnaire stocke des paires clé-valeur. Chaque clé est unique et permet d’accéder à sa valeur.
+Ensembles : un ensemble est une collection non ordonnée de valeurs uniques. On peut ajouter et supprimer des éléments et vérifier leur présence.
+Tuples : un tuple est similaire à une liste mais immuable. Les valeurs ne peuvent pas être modifiées après création.
+Gestion des fichiers : Python permet de lire et d’écrire des fichiers texte. Le mot-clé with assure une bonne fermeture du fichier après utilisation.
+Exceptions : Python utilise try et except pour gérer les erreurs. Le bloc finally s’exécute toujours, même si une erreur survient.
+Modules : un module est un fichier Python contenant du code réutilisable. On peut importer des modules standard comme math ou créer ses propres modules.
+Classes et objets : Python est orienté objet. Une classe définit la structure d’un objet avec des attributs et des méthodes. Un objet est une instance d’une classe.
+Compréhensions : les compréhensions permettent de créer des listes, dictionnaires ou ensembles de manière concise et souvent avec une condition.
+Packages externes : Python permet d’utiliser des bibliothèques externes installables avec pip. Cela permet d’accéder à des fonctionnalités avancées comme les requêtes HTTP ou le traitement d’images.
+Fonctions utiles intégrées : Python propose des fonctions intégrées comme len pour obtenir la longueur, sum pour la somme, min et max pour les valeurs extrêmes, sorted pour trier, enumerate pour obtenir un index avec les valeurs et zip pour combiner des séquences.

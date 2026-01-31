@@ -1,0 +1,41 @@
+# buildozer.yml - projet IA JoyServer
+title: A_project
+package.name: a_project
+package.domain: org.joyserver
+version: 0.1
+orientation: portrait
+fullscreen: 0
+log_level: 2
+
+# Fichiers à inclure dans l'APK
+source.include_exts: py,png,txt,json
+source.include_patterns:
+  - con.txt
+  - regles.txt
+  - memoire.json
+  - t.png
+  - *.py
+
+# Librairies Python / Kivy pour ton IA
+requirements:
+  - python3
+  - kivy
+
+# Permissions Android
+android.permissions:
+  - INTERNET
+  - WRITE_EXTERNAL_STORAGE
+  - READ_EXTERNAL_STORAGE
+
+# Paramètres Android
+android:
+  ndk_api: 21
+  minapi: 21
+  target: 33
+  presplash_color: "#000000"
+  presplash_image: "t.png"
+  use_androidx: true
+
+# Options facultatives
+orientation: portrait
+fullscreen: false
