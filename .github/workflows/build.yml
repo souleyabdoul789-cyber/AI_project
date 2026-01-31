@@ -14,7 +14,7 @@ source.include_patterns:
   - regles.txt
   - memoire.json
   - t.png
-  -  "*.py"
+  - "*.py"
 
 
 # Librairies Python / Kivy pour ton IA
